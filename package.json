@@ -1,0 +1,25 @@
+{
+  "name": "proxchat",
+  "version": "0.0.1",
+  "description": "Proximity based, minimal chat",
+  "homepage": "https://github.com/1GN4X-206/ProxChat#readme",
+  "bugs": {
+    "url": "https://github.com/1GN4X-206/ProxChat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1GN4X-206/ProxChat.git"
+  },
+  "license": "ISC",
+  "author": "1GN4X-206",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "js-sha256": "^0.11.0"
+  }
+}

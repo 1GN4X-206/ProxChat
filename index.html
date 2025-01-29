@@ -1,16 +1,40 @@
+<!DOCTYPE html>
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProxChat ALPH 0l</title>
+    <style>
+        #textbox {
+            width: 100%;
+            height: 300px;
+            border: 1px solid #ccc;
+            overflow-y: auto;
+            padding: 10px;
+            background-color: #777777;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #textbox div {
+            margin-bottom: 5px;
+        }
+    </style>
+    <script src="./node_modules/js-sha256/build/sha256.min.js"></script>
 </head>
 <body>
     <div id="cabecera">
         <h2>Proxchat</h2>
+        <p>ALPHA 01</p>
     </div>
-    <div id="cuerpo">+
+    <div id="cuerpo">
         <div id="sectorUsuario">
             <p>Nuevo?</p>
             <button onclick="whoami()" class="button newuser">Generar UID</button>
         </div>
-    <p>Aca deberia ir el chat</p>
+    <div id="textbox" readonly></div>
+    <div id="inputarea">
+        <input type="text" id="input" placeholder="Texto" />
+        <button onclick="send()">Enviar</button>
+    </div>
     </div>
     <script src="./main.js">s</script>
 </body>
